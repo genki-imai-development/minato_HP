@@ -63,5 +63,7 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
-  }
+  },
+  // eslint-disable-next-line no-dupe-keys
+  css: ['@/assets/css/common.css']
 }

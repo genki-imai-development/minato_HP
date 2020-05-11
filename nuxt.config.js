@@ -49,7 +49,8 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
-    'nuxt-webfontloader'
+    'nuxt-webfontloader',
+    'nuxt-fontawesome'
   ],
   /*
    ** Axios module configuration
@@ -72,5 +73,14 @@ export default {
     google: {
       families: ['Kosugi+Maru']
     }
+  },
+  // fontawesomeを利用
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      }
+    ]
   }
 }

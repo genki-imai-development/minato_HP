@@ -48,7 +48,8 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    'nuxt-webfontloader'
   ],
   /*
    ** Axios module configuration
@@ -65,5 +66,11 @@ export default {
     extend(config, ctx) {}
   },
   // eslint-disable-next-line no-dupe-keys
-  css: ['@/assets/css/common.css']
+  css: ['@/assets/css/common.css'],
+  // webフォントを利用
+  webfontloader: {
+    google: {
+      families: ['Kosugi+Maru']
+    }
+  }
 }

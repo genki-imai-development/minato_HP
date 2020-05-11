@@ -31,3 +31,8 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ### Webフォントのインストール
 1. `npm install nuxt-webfontloader` を実行
+
+### FontAwesomeのインストール
+1. `npm i nuxt-fontawesome` を実行
+2. `npm i @fortawesome/fontawesome-svg-core @fortawesome/vue-fontawesome` を実行
+3. `npm i @fortawesome/free-solid-svg-icons` を実行

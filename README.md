@@ -28,3 +28,6 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 2. インストールされているかを`node -v`で確認する。
 3. `npm init`を利用して`package.json`を作成する。
 4. `npm install node-sass --save-dev`を作成して、`node_module`を作成する。
+
+### Webフォントのインストール
+1. `npm install nuxt-webfontloader` を実行

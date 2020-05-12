@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* SP対応
+--------------------------- */
+@media screen and (max-width: 1023px) {
+    // SPのときにだけ表示
+    .disp-small {
+        display: block;
+    }
+    // PCのときにだけ表示
+    .disp-large {
+        display: none;
+    }
+    // SPのときにだけ表示
+    .navbar-brand {
+        display: block;
+    }
+    .nav--item {
+        display: block;
+        width: auto;
+    }
+    // ロゴ
+    .navbar-item img {
+        max-height: 2.75rem;
+    }
+    .navbar-item::before {
+        display: none;
+    }
+    .navbar-start::before {
+        display: none;
+    }
+    .navbar-brand .navbar-item {
+        display: inline-block;
+        padding: 4px 12px 0;
+    }
+    .navbar-burger {
+        float: right;
+    }
+}

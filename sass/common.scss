@@ -1,8 +1,17 @@
 @charset "UTF-8";
 
-/* PC用Style定義
+/* PC用共通Style定義
 --------------------------- */
 @import "common_pc";
-/* SP用Style定義
+
+/* PC用トップStyle定義
+--------------------------- */
+@import "top_pc";
+
+/* SP用共通Style定義
 --------------------------- */
 @import "common_sp";
+
+/* SP用トップStyle定義
+--------------------------- */
+@import "top_sp";

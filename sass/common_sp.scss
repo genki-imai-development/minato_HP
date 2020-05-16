@@ -3,11 +3,11 @@
 /* SP対応
 --------------------------- */
 @media screen and (max-width: 1023px) {
-    // SPのときにだけ表示
+    // SPのときにだけ表示する用のクラス
     .disp-small {
         display: block;
     }
-    // PCのときにだけ表示
+    // PCのときにだけ表示する用のクラス
     .disp-large {
         display: none;
     }
@@ -19,7 +19,8 @@
         display: block;
         width: auto;
     }
-    // ロゴ
+    // 以下はナビゲーションメニュー
+    // SP版のロゴ
     .navbar-item img {
         max-height: 2.75rem;
     }

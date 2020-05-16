@@ -6,8 +6,7 @@
       </b-navbar-item>
     </template>
     <template slot="start">
-      <span class="a"></span
-      ><b-navbar-item href="/" class="nav--item">
+      <b-navbar-item href="/" class="nav--item active">
         <span class="disp-small">ホーム</span>
         <span class="disp-large nav-text"
           >ホーム<br /><span class="nav-text--eg">HOME</span></span

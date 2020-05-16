@@ -6,6 +6,10 @@ body {
     font-family: 'Lato', sans-serif;
     color: #242424;
 }
+// SPのときにだけ表示する用のクラス
+.disp-small {
+    display: none;
+}
 
 /* ヘッダー
 --------------------------- */
@@ -124,23 +128,6 @@ a.nav--item:hover, a.nav--item.is-active {
     font-size: 13px;
     font-weight: normal;
 }
-// SPのときにだけ表示
 .navbar-brand {
-    display: none;
-}
-/* スライダー
---------------------------- */
-.VueCarousel-slide {
-    background: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-right: 1px solid #fff;
-    box-sizing: border-box;
-    img {
-        width: 1200px;
-    }
-}
-.disp-small {
     display: none;
 }

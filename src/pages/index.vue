@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container top">
     <section class="slider">
       <carousel
         :per-page="1"
@@ -27,7 +27,6 @@
     </section>
   </div>
 </template>
-
 <script>
 import Carousel from 'vue-carousel/src/Carousel.vue'
 import Slide from 'vue-carousel/src/Slide.vue'

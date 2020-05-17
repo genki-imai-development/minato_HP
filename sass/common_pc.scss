@@ -87,10 +87,11 @@ body {
 .active {
     color: #ed7923;
     background-color: #f2f2f2;
+    transition: 0.5s;
 }
 a.nav--item:hover, a.nav--item.is-active {
     color: #ed7923;
-    background-color: #f9f9f9;
+    background-color: #f2f2f2;
     transition: 0.5s;
     .active {
         color: #242424;

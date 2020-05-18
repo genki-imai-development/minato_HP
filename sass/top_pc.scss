@@ -16,3 +16,71 @@
 .top {
     max-width: none;
 }
+/* みなとをご紹介
+--------------------------- */
+.special {
+    background: linear-gradient(180deg,#FFF 0%,#FFF 42%,#B4E3F7 42%,#B4E3F7 100%);
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+.special-inner {
+    max-width: 1200px;
+    padding: 60px 0;
+    margin: 0 auto;
+}
+.special-box {
+    padding: 54px 54px 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    a {
+        color: #ed7923;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.special-box:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.special-box-inner__text {
+    font-size: 18px;
+    margin: 8px 0 0 0;
+    font-weight: bold;
+}
+/* みなとでの過ごしかた
+--------------------------- */
+.feature {
+    background-color: #F7B4B4;
+    padding: 60px 0 0 0;
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+.feature-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* お知らせ
+--------------------------- */
+.news {
+    background-color: #F7F4B4;
+    padding: 60px 0 0 0;
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+.news-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}

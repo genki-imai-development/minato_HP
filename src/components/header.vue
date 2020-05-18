@@ -1,6 +1,7 @@
 <template>
   <div>
     <header>
+      <p class="header__text--name">安中市磯部の介護施設 ほほえみの家 みなと</p>
       <div class="header disp-large">
         <a href="/"
           ><img
@@ -8,6 +9,18 @@
             src="~/assets/images/minato_logo.png"
             alt="minato"
         /></a>
+        <span class="header__text--day"
+          ><a href="/day"
+            ><font-awesome-icon :icon="['fas', 'car-side']" />みなとに通う
+            -デイサービスセンター みなと-</a
+          ></span
+        >
+        <span class="header__text--house"
+          ><a href="/house"
+            ><font-awesome-icon :icon="['fas', 'house-user']" />みなとで暮らす
+            -ほほえみの家 みなと-</a
+          ></span
+        >
         <ul class="contact-list disp-large">
           <li class="contact-list__item">
             <a href="tel:10273863710">

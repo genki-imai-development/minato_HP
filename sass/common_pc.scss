@@ -15,7 +15,7 @@ body {
 --------------------------- */
 .header {
     max-width: 1200px;
-    margin: 16px auto;
+    margin: 0 auto 16px;
     position: relative;
 }
 //ロゴ
@@ -24,6 +24,39 @@ body {
     outline: none;
     -webkit-transition: all .3s;
     transition: all .3s;
+}
+// ヘッダー文字
+.header__text--name {
+    max-width: 1200px;
+    margin: 4px auto 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.header__text--day {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    left: 19%;
+    a {
+        color: #ed7923;
+    }
+    a:hover {
+        opacity: 0.5;
+    }
+}
+.header__text--house {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 60px;
+    left: 19%;
+    a {
+        color: #ed7923;
+    }
+    a:hover {
+        opacity: 0.5;
+    }
 }
 // ボタン
 .contact-list {
@@ -35,6 +68,12 @@ body {
 .contact-list__item {
     float: left;
     margin: 0 0 0 16px;
+}
+.fa-car-side {
+    margin: 0 8px 0 0;
+}
+.fa-house-user {
+    margin: 0 8px 0 0;
 }
 .contact-btn {
     font-size: 18px;

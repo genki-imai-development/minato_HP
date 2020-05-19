@@ -5,15 +5,23 @@
 @media screen and (max-width: 1023px) {
     // SPのときにだけ表示する用のクラス
     .disp-small {
-        display: block;
+        display: block!important;
     }
     // PCのときにだけ表示する用のクラス
     .disp-large {
-        display: none;
+        display: none!important;
+    }
+    // ヘッダー文字
+    .header__text--name {
+        font-size: 14px;
+        margin-left: 4px;
     }
     // SPのときにだけ表示
     .navbar-brand {
         display: block;
+    }
+    .nav {
+        margin: 4px auto;
     }
     .nav--item {
         display: block;

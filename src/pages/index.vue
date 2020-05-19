@@ -65,10 +65,85 @@
     <section class="feature">
       <div class="feature-inner">
         <h2>みなとでの過ごしかた</h2>
-        <div class="columns">
-          <div class="column is-4 special-box"></div>
-          <div class="column is-4 special-box"></div>
-          <div class="column is-4 special-box"></div>
+        <div class="columns disp-large">
+          <div class="column is-6 feature-box">
+            <div class="feature-box-inner">
+              <h3 class="feature-box-inner__title">
+                みなとに通う -デイサービスセンター みなと-
+              </h3>
+              <p class="feature-box-inner__text">
+                デイサービスは、 ご自宅から施設に通っていただく、
+                日帰りサービスです。ご家族の負担を軽減し、ご利用者様が楽しく充実した時間をお過ごしいただけるようサポートいたします。
+              </p>
+              <div class="feature-box__btn">
+                <a href="/day">もっと詳しく見る</a>
+              </div>
+            </div>
+          </div>
+          <div class="column is-6 feature-box">
+            <a href="/helper">
+              <div class="feature-box-inner">
+                <img src="@/assets/images/helper01.jpg" />
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="columns disp-small">
+          <div class="column is-6 feature-box">
+            <div class="feature-box-inner">
+              <h3 class="feature-box-inner__title">
+                みなとに通う<br />
+                -デイサービスセンター みなと-
+              </h3>
+              <img src="@/assets/images/helper01.jpg" />
+              <p class="feature-box-inner__text">
+                デイサービスは、 ご自宅から施設に通っていただく、
+                日帰りサービスです。ご家族の負担を軽減し、ご利用者様が楽しく充実した時間をお過ごしいただけるようサポートいたします。
+              </p>
+              <div class="feature-box__btn">
+                <a href="/day">もっと詳しく見る</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns disp-large">
+          <div class="column is-6 feature-box">
+            <div class="feature-box-inner">
+              <a href="/information">
+                <img src="@/assets/images/floor1004.jpg" />
+              </a>
+            </div>
+          </div>
+          <div class="column is-6 feature-box">
+            <div class="feature-box-inner">
+              <h3 class="feature-box-inner__title">
+                みなと-みなとで暮らす -ほほえみの家 みなと-
+              </h3>
+              <p class="feature-box-inner__text">
+                ほほえみの家「みなと」では、ひとり暮らしや、ご自宅での介護に不安を抱える皆様を全面的にサポート致します。ケアスタッフが２４時間体制で常駐していますので、安心してご入居いただけます。どうぞお気軽にご相談ください。
+              </p>
+              <div class="feature-box__btn">
+                <a href="/house">もっと詳しく見る</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns disp-small">
+          <div class="column is-6 feature-box">
+            <div class="feature-box-inner">
+              <h3 class="feature-box-inner__title">
+                みなと-みなとで暮らす<br />
+                -ほほえみの家 みなと-
+              </h3>
+              <img src="@/assets/images/floor1004.jpg" />
+              <p class="feature-box-inner__text">
+                ほほえみの家「みなと」では、ひとり暮らしや、ご自宅での介護に不安を抱える皆様を全面的にサポート致します。ケアスタッフが２４時間体制で常駐していますので、安心してご入居いただけます。どうぞお気軽にご相談ください。
+              </p>
+              <div class="feature-box__btn">
+                <a href="/house">もっと詳しく見る</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

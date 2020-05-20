@@ -120,14 +120,62 @@
 --------------------------- */
 .news {
     background-color: #B1D5CB;
-    padding: 60px 0 0 0;
     h2 {
         text-align: center;
         font-size: 30px;
         font-weight: bold;
+        margin-bottom: 60px;
     }
 }
 .news-inner {
     max-width: 1200px;
+    padding: 70px 0;
     margin: 0 auto;
+    li {
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #6B807A;
+        padding: 12px 0;
+        font-weight: bold;
+        .time {
+            display: inline-block;
+            margin: 4px 0;
+        }
+        p {
+            margin: 4px 0;
+        }
+    }
+}
+.news-box__btn {
+    margin: 30px auto;
+    width: 210px;
+    a {
+        display: block;
+        padding: 16px 0;
+        background: #FFF;
+        color: #000;
+        text-align: center;
+        font-size: 16px;
+    }
+    a:hover {
+        opacity: 0.7;
+        transition: all .3s;
+    }
+}
+// もっと見るボタン用のクラス
+.dblock {
+    display: block;
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+}
+.dnone {
+    display: none;
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

@@ -65,17 +65,31 @@
     }
     .feature-box__btn {
         margin: 20px auto 0;
-        width: 210px;
         a {
-            display: block;
             padding: 13px 0;
-            background: #FFF;
-            color: #000;
-            text-align: center;
-            font-size: 16px;
         }
         a:hover {
-            opacity: 0.7;
+            opacity: 1;
+            transition: all .3s;
+        }
+    }
+    /* お知らせ
+    --------------------------- */
+    .news {
+        h2 {
+            margin-bottom: 28px;
+        }
+    }
+    .news-inner {
+        padding: 40px 18px;
+    }
+    .news-box__btn {
+        margin: 20px auto 0;
+        a {
+            padding: 13px 0;
+        }
+        a:hover {
+            opacity: 1;
             transition: all .3s;
         }
     }

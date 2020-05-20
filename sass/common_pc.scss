@@ -10,6 +10,10 @@ body {
 .disp-small {
     display: none!important;
 }
+// 非表示するときに使うクラス
+.disp-none {
+    display: none;
+}
 
 /* ヘッダー
 --------------------------- */

@@ -89,7 +89,7 @@
           </div>
         </div>
         <div class="columns disp-small">
-          <div class="column is-6 feature-box">
+          <div class="column is-12 feature-box">
             <div class="feature-box-inner">
               <h3 class="feature-box-inner__title">
                 みなとに通う<br />
@@ -129,7 +129,7 @@
           </div>
         </div>
         <div class="columns disp-small">
-          <div class="column is-6 feature-box">
+          <div class="column is-12 feature-box">
             <div class="feature-box-inner">
               <h3 class="feature-box-inner__title">
                 みなと-みなとで暮らす<br />
@@ -150,6 +150,34 @@
     <section class="news">
       <div class="news-inner">
         <h2>お知らせ</h2>
+        <ul>
+          <li>
+            <time class="time" datetime="2020-06-03">2020.09.03</time>
+            <p>『みなとのホームページ』リニューアルしました</p>
+          </li>
+          <li>
+            <time class="time" datetime="2020-05-03">2020.05.03</time>
+            <p>
+              新型コロナウイルス感染症の感染防止のため、5月いっぱいまでご家族様も面会禁止とさせていただきます。詳しくは、みなとまでお問い合わせくださいませ。
+            </p>
+          </li>
+          <li>
+            <time class="time" datetime="2020-04-03">2020.04.03</time>
+            <p>スタッフ募集中！！詳しくはお電話でご質問ください。</p>
+          </li>
+          <li class="disp-none" :class="{ dblock: isMore }">
+            <time class="time" datetime="2018-06-03">2020.06.03</time>
+            <p>
+              『みなと』の<a href="http://blog.goo.ne.jp/0273863710">
+                ブログ投稿
+              </a>
+              してます！！
+            </p>
+          </li>
+        </ul>
+        <div class="news-box__btn" :class="{ dnone: isMore }">
+          <a @click="more">もっと詳しく見る</a>
+        </div>
       </div>
     </section>
   </div>
@@ -161,6 +189,16 @@ export default {
   components: {
     Carousel,
     Slide
+  },
+  data() {
+    return {
+      isMore: false
+    }
+  },
+  methods: {
+    more() {
+      this.isMore = true
+    }
   }
 }
 </script>

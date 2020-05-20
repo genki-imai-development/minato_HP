@@ -1,7 +1,9 @@
 <template>
   <div>
     <header>
-      <p class="header__text--name">安中市磯部の介護施設 ほほえみの家 みなと</p>
+      <p class="header__text--name">
+        安中市磯部の介護施設 ほほえみの家 みなと
+      </p>
       <div class="header disp-large">
         <a href="/"
           ><img

@@ -154,3 +154,62 @@ a.nav--item:hover, a.nav--item.is-active {
 .navbar-brand {
     display: none;
 }
+
+/* 　フッター
+--------------------------- */
+.footer {
+    background: #111;
+    color: #fff;
+    padding: 28px 18px 50px;
+}
+.footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    img {
+        margin: 18px 0 10px -13px;
+    }
+}
+.footer-menu {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    list-style: none;
+}
+.footer-menu--list {
+    padding-left: 4px;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+    a {
+        color: #fff;
+    }
+}
+.footer-menu--list:hover {
+    opacity: 0.7;
+    transition: all .3s;
+}
+.footer-menu--list::before {
+    display: block;
+    content: ">";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    font-size: 15px;
+}
+.footer-end {
+    position: relative;
+    .footer-menu {
+        position: static;
+        padding: 0 0 0 0;
+        list-style: none;
+    }
+    .footer-menu--list:first-child {
+        margin: 0 0 0 10px;
+    }
+}
+.copyright {
+    position: absolute;
+    right: 0;
+    display: inline;
+}

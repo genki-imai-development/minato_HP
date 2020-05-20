@@ -45,4 +45,27 @@
     .navbar-burger {
         float: right;
     }
+
+    /* フッター
+    --------------------------- */
+    .footer {
+        padding: 0;
+        font-size: 14px;
+    }
+    .footer-inner {
+        padding: 20px 18px;
+        text-align: center;
+        img {
+            margin: 0;
+        }
+    }
+    .footer__logo {
+        display: block;
+    }
+    .copyright {
+        position: static;
+    }
+    .footer--text {
+        margin: 8px 0 0 0;
+    }
 }

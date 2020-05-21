@@ -17,12 +17,21 @@ body {
 
 /* ヘッダー
 --------------------------- */
+header {
+    padding: 0 16px;
+}
 .header {
     max-width: 1200px;
     margin: 0 auto 16px;
     position: relative;
 }
+.header-inner {
+    padding: 0 16px;
+}
 //ロゴ
+.header__logo {
+    margin: 0 0 0 -12px;
+}
 .header__logo:hover {
     opacity: 0.7;
     outline: none;
@@ -32,12 +41,12 @@ body {
 // ヘッダー文字
 .header__text--name {
     max-width: 1200px;
-    margin: 4px auto 0;
+    margin: 16px auto 0;
     font-size: 24px;
     font-weight: bold;
 }
 .header__text--day {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bold;
     position: absolute;
     top: 25px;
@@ -50,7 +59,7 @@ body {
     }
 }
 .header__text--house {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bold;
     position: absolute;
     top: 60px;
@@ -80,7 +89,7 @@ body {
     margin: 0 8px 0 0;
 }
 .contact-btn {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 56px;
     height: 56px;
     padding: 0 16px;

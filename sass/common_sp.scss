@@ -11,17 +11,22 @@
     .disp-large {
         display: none!important;
     }
+    /* ヘッダー
+    --------------------------- */
+    header {
+        padding: 0;
+    }
     // ヘッダー文字
     .header__text--name {
-        font-size: 14px;
-        margin-left: 4px;
+        font-size: 16px;
+        margin: 12px 0 0 12px;
     }
     // SPのときにだけ表示
     .navbar-brand {
         display: block;
     }
     .nav {
-        margin: 4px auto;
+        margin: 2px auto;
     }
     .nav--item {
         display: block;
@@ -30,7 +35,7 @@
     // 以下はナビゲーションメニュー
     // SP版のロゴ
     .navbar-item img {
-        max-height: 2.75rem;
+        max-height: 4rem;
     }
     .navbar-item::before {
         display: none;
@@ -40,12 +45,21 @@
     }
     .navbar-brand .navbar-item {
         display: inline-block;
-        padding: 4px 12px 0;
+        padding: 4px 4px 0;
     }
     .navbar-burger {
         float: right;
+        margin: 10px 0 0 0;
+        span {
+            width: 24px;
+            left: calc(50% - 11px);
+        }
     }
-
+    /* スライダー
+    --------------------------- */
+    .VueCarousel-dot-container {
+        margin-top: 0;
+    }
     /* フッター
     --------------------------- */
     .footer {

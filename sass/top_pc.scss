@@ -19,11 +19,12 @@
 --------------------------- */
 .special {
     background: linear-gradient(180deg,#FFF 0%,#FFF 42%,#F0DEB0 42%,#F0DEB0 100%);
+    padding: 0 18px;
     h2 {
         text-align: center;
-        font-size: 30px;
+        font-size: 32px;
         font-weight: bold;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 }
 .special-inner {
@@ -31,12 +32,16 @@
     padding: 70px 0;
     margin: 0 auto;
     .columns {
-        margin-left: -2.687rem;
-        margin-right: -2.687rem;
+        margin-left: -1.5rem;
+        margin-right: -1.5rem;
+        margin-top: 0;
+    }
+    .columns:last-child {
+        margin-bottom: 0;
     }
 }
 .special-box {
-    padding: 0 2.687rem 0 2.687rem;
+    padding: 0 1.5rem 0 1.5rem;
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: .3s ease-in-out;
@@ -55,29 +60,29 @@
 }
 .special-box-inner__text {
     font-size: 18px;
-    margin: 8px 0 0 0;
+    margin: 8px 0 0 8px;
     font-weight: bold;
 }
 /* みなとでの過ごしかた
 --------------------------- */
 .feature {
     background-color: #F8B5B8;
+    padding: 0 18px;
     h2 {
         text-align: center;
-        font-size: 30px;
+        font-size: 32px;
         font-weight: bold;
-        margin-bottom: 60px;
     }
 }
 .feature-inner {
     max-width: 1200px;
-    padding: 70px 0 0;
+    padding: 70px 0 70px;
     margin: 0 auto;
     .columns {
         margin-left: -2rem;
         margin-right: -2rem;
         margin-bottom: 0;
-        padding-bottom: 80px;
+        margin-top: 40px;
     }
 }
 .feature-box {
@@ -91,9 +96,9 @@
     }
 }
 .feature-box-inner__title {
-    margin: 30px 0 0 30px;
+    margin: 0 0 0 30px;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 25px;
 }
 .feature-box-inner__text {
     margin: 20px 0 0 30px;
@@ -101,7 +106,7 @@
     font-size: 24px;
 }
 .feature-box__btn {
-    margin: 30px auto;
+    margin: 30px auto 0;
     width: 210px;
     a {
         display: block;
@@ -119,17 +124,18 @@
 /* お知らせ
 --------------------------- */
 .news {
+    padding: 0 18px;
     background-color: #B1D5CB;
     h2 {
         text-align: center;
-        font-size: 30px;
+        font-size: 32px;
         font-weight: bold;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 }
 .news-inner {
     max-width: 1200px;
-    padding: 70px 18px;
+    padding: 70px 0;
     margin: 0 auto;
     li {
         width: 100%;

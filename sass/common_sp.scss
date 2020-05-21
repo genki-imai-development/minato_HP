@@ -23,6 +23,7 @@
     }
     // SPのときにだけ表示
     .navbar-brand {
+        position: relative;
         display: block;
     }
     .nav {
@@ -48,8 +49,9 @@
         padding: 4px 4px 0;
     }
     .navbar-burger {
-        float: right;
-        margin: 10px 0 0 0;
+        position: absolute;
+        top: 12px;
+        right: 1px;
         span {
             width: 24px;
             left: calc(50% - 11px);

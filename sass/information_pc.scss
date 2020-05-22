@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* 全体
+--------------------------- */
+.information {
+    max-width: none;
+    padding: 0 18px;
+}
+/* タイトルセクション
+--------------------------- */
+.title {
+    max-width: 1200px;
+    margin: 70px auto;
+    text-align: center;
+}
+.title--title {
+    font-size: 38px;
+    margin: 0 0 10px 0;
+}
+.title--description {
+    font-size: 16px;
+}
+/* 設備案内テーブルセクション
+--------------------------- */
+.information-table {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 46px 0 70px;
+    .information-table--text {
+        font-size: 28px;
+        margin: 0 0 32px 0;
+    }
+    .information-table--text::after {
+        content: '';
+        display: block;
+        width: 110px;
+        height: 1px;
+        margin: 4px 0 0 0;
+        border: solid 1px #242424;
+    }
+    .information-table--heading {
+        display: table-row;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th,
+    td {
+        padding: 12px 24px;
+        text-align: center;
+        border: 1px solid #aaa;
+    }
+    th {
+        font-weight: normal;
+        font-size: 20px;
+        background: #f2f2f2;
+        color: #242424;
+    }
+    td {
+        font-size: 17px;
+    }
+}
+/* お部屋案内画像集セクション
+--------------------------- */
+.information-image-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 46px;
+    .information-image-list--text {
+        font-size: 28px;
+        margin: 0 0 32px 0;
+    }
+    .information-image-list--text::after {
+        content: '';
+        display: block;
+        width: 138px;
+        height: 1px;
+        margin: 4px 0 0 0;
+        border: solid 1px #242424;
+    }
+    .columns {
+        margin: 0 -1.5rem;
+    }
+    .columns:last-child {
+        margin-bottom: 0;
+    }
+    .image-box {
+        padding: 0 1.5rem 1.5rem;
+        a {
+            color: #242424;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .image-box-inner__text {
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+}

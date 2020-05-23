@@ -41,7 +41,7 @@
           </div>
           <div class="column is-4 special-box">
             <div class="special-box-inner">
-              <a href="/day">
+              <a href="/schedule">
                 <img src="@/assets/images/minato_photo1.png" />
                 <p class="special-box-inner__text">
                   デイサービスの1日をご紹介！

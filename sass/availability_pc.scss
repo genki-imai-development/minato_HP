@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* 全体
+--------------------------- */
+.availability {
+    max-width: none;
+    padding: 0 18px;
+}
+/* 空き状況（デイサービス）
+--------------------------- */
+.availability-day {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 46px 0 70px;
+    .availability-day--title {
+        font-size: 28px;
+        margin: 0 0 32px 0;
+    }
+    .availability-day--title::after {
+        content: '';
+        display: block;
+        width: 255px;
+        height: 1px;
+        margin: 4px 0 0 0;
+        border: solid 1px #242424;
+    }
+    .availability-day--text {
+        font-size: 20px;
+    }
+    .availability-day--note {
+        font-size: 16px;
+        margin: 8px 0 0 0;
+    }
+}
+/* 空き状況（ほほえみの家）
+--------------------------- */
+.availability-house {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 70px;
+    .availability-house--title {
+        font-size: 28px;
+        margin: 0 0 32px 0;
+    }
+    .availability-house--title::after {
+        content: '';
+        display: block;
+        width: 255px;
+        height: 1px;
+        margin: 2px 0 0 0;
+        border: solid 1px #242424;
+    }
+    .availability-house--text {
+        font-size: 20px;
+    }
+    .availability-house--note {
+        font-size: 16px;
+        margin: 8px 0 0 0;
+    }
+}

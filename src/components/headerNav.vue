@@ -158,6 +158,12 @@ export default {
       }
     } else if (this.$route.path === '/company') {
       return {
+        isHome: false,
+        isInformation: false,
+        isAccess: false,
+        isFee: false,
+        isAvailability: false,
+        isContact: false,
         isCompany: true
       }
     } else {

@@ -1,29 +1,29 @@
 @charset "UTF-8";
 /* 全体
 --------------------------- */
-.information {
+.fee {
     max-width: none;
     padding: 0 18px;
 }
 /* 設備案内テーブルセクション
 --------------------------- */
-.information-table {
+.fee-table {
     max-width: 1200px;
     margin: 0 auto;
     padding: 46px 0 70px;
-    .information-table--text {
+    .fee-table--text {
         font-size: 28px;
         margin: 0 0 32px 0;
     }
-    .information-table--text::after {
+    .fee-table--text::after {
         content: '';
         display: block;
-        width: 110px;
+        width: 308px;
         height: 1px;
         margin: 4px 0 0 0;
         border: solid 1px #242424;
     }
-    .information-table--heading {
+    .fee-table--heading {
         display: table-row;
     }
     table {
@@ -45,44 +45,33 @@
     td {
         font-size: 18px;
     }
+    .table__note--text {
+        margin: 45px 0 0 0;
+    }
 }
 /* お部屋案内画像集セクション
 --------------------------- */
-.information-image-list {
+.fee-addition-list {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 0 46px;
-    .information-image-list--text {
+    padding: 0 0 70px;
+    .fee-addition-list--title {
         font-size: 28px;
         margin: 0 0 32px 0;
     }
-    .information-image-list--text::after {
+    .fee-addition-list--title::after {
         content: '';
         display: block;
-        width: 138px;
+        width: 53px;
         height: 1px;
         margin: 4px 0 0 0;
         border: solid 1px #242424;
     }
-    .columns {
-        margin: 0 -1.5rem;
+    .fee-addition-list--text {
+        margin: 10px 0 0 0;
+        font-size: 18px;
     }
-    .columns:last-child {
-        margin-bottom: 0;
-    }
-    .image-box {
-        padding: 0 1.5rem 1.5rem;
-        a {
-            color: #242424;
-        }
-        img {
-            width: 100%;
-            height: auto;
-        }
-    }
-    .image-box-inner__text {
-        font-size: 20px;
-        text-align: center;
-        font-weight: bold;
+    .fee-addition-list--text:first-child {
+        margin: 0;
     }
 }

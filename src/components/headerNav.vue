@@ -128,7 +128,13 @@ export default {
       }
     } else if (this.$route.path === '/fee') {
       return {
-        isFee: true
+        isHome: false,
+        isInformation: false,
+        isAccess: false,
+        isFee: true,
+        isAvailability: false,
+        isContact: false,
+        isCompany: false
       }
     } else if (this.$route.path === '/availability') {
       return {

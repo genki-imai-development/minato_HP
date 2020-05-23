@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* SP対応
+--------------------------- */
+@media screen and (max-width: 1000px) {
+    /* 設備案内テーブルセクション
+    --------------------------- */
+    .fee-table {
+        padding: 16px 0 40px;
+        .fee-table--text {
+            margin: 0 0 24px 0;
+            font-size: 24px;
+        }
+        .fee-table--text::after {
+            width: 264px;
+        }
+        table {
+            border: solid 1px #aaa;
+        }
+        .table__note--text {
+            margin: 0;
+        }
+        .fee-table--heading {
+            display: none;
+        }
+        .fee-table--kind {
+            font-size: 20px;
+            background: #eee;
+        }
+        .fee-table--item {
+            font-size: 20px;
+        }
+        
+        tr {
+            margin: 0 0 16px 0;
+            border-top: solid 1px #aaa;
+        }
+        th ,td {
+            border: none;
+        }
+        td {
+            display: block;
+        }
+        td::before {
+            content: attr(data-label);
+            font-size: 20px;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+    }
+    /* お部屋案内画像集セクション
+    --------------------------- */
+    .fee-addition-list {
+        padding: 0 0 40px 0;
+        .fee-addition-list--title {
+            margin: 0 0 24px 0;
+            font-size: 24px;
+        }
+        .fee-addition-list--title::after {
+            width: 47px;
+        }
+    }
+}

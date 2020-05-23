@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* SP対応
+--------------------------- */
+@media screen and (max-width: 1023px) {
+    /* 空き状況（デイサービス）
+    --------------------------- */
+    .availability-day {
+        padding: 16px 0 40px;
+        .availability-day--title {
+            margin: 0 0 24px 0;
+            font-size: 24px;
+        }
+        .availability-day--title::after {
+            width: 220px;
+        }
+    }
+    /* 空き状況（ほほえみの家）
+    --------------------------- */
+    .availability-house {
+        padding: 0 0 40px 0;
+        .availability-house--title {
+            margin: 0 0 24px 0;
+            font-size: 24px;
+        }
+        .availability-house--title::after {
+            width: 220px;
+        }
+    }
+}

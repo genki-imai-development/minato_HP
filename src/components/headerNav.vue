@@ -138,7 +138,13 @@ export default {
       }
     } else if (this.$route.path === '/availability') {
       return {
-        isAvailability: true
+        isHome: false,
+        isInformation: false,
+        isAccess: false,
+        isFee: false,
+        isAvailability: true,
+        isContact: false,
+        isCompany: false
       }
     } else if (this.$route.path === '/contact') {
       return {

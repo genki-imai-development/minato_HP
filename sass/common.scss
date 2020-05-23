@@ -32,6 +32,10 @@
 --------------------------- */
 @import "house_pc";
 
+/* PC用空き状況Style定義
+--------------------------- */
+@import "availability_pc";
+
 /* SP用共通Style定義
 --------------------------- */
 @import "common_sp";
@@ -63,3 +67,7 @@
 /* SP用ほほえみの家Style定義
 --------------------------- */
 @import "house_sp";
+
+/* SP用空き状況Style定義
+--------------------------- */
+@import "availability_sp";

@@ -118,7 +118,13 @@ export default {
       }
     } else if (this.$route.path === '/access') {
       return {
-        isAccess: true
+        isHome: false,
+        isInformation: false,
+        isAccess: true,
+        isFee: false,
+        isAvailability: false,
+        isContact: false,
+        isCompany: false
       }
     } else if (this.$route.path === '/fee') {
       return {

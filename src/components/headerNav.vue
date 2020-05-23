@@ -149,7 +149,15 @@ export default {
         isCompany: true
       }
     } else {
-      return {}
+      return {
+        isHome: false,
+        isInformation: false,
+        isAccess: false,
+        isFee: false,
+        isAvailability: false,
+        isContact: false,
+        isCompany: false
+      }
     }
   },
   methods: {

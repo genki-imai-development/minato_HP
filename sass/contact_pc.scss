@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* 全体
+--------------------------- */
+.contact {
+    max-width: none;
+    padding: 0 18px;
+}
+/* 料金テーブルセクション
+--------------------------- */
+.contact-table {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 46px 0 70px;
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th,
+    td {
+        padding: 12px 18px;
+        text-align: center;
+        border: 1px solid #aaa;
+    }
+    th {
+        font-weight: normal;
+        font-size: 20px;
+        background: #f2f2f2;
+        color: #242424;
+    }
+    td {
+        font-size: 18px;
+    }
+}

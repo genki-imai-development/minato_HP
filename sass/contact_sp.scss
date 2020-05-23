@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* SP対応
+--------------------------- */
+@media screen and (max-width: 1023px) {
+    /* 料金テーブルセクション
+    --------------------------- */
+    .contact-table {
+        padding: 16px 0 40px;
+        table {
+            border: solid 1px #aaa;
+        }
+        .contact-table--kind {
+            font-size: 20px;
+            background: #eee;
+        }
+        .contact-table--item {
+            font-size: 20px;
+        }
+        
+        tr {
+            margin: 0 0 16px 0;
+            border-top: solid 1px #aaa;
+        }
+        th ,td {
+            border: none;
+        }
+        td {
+            display: block;
+        }
+        td::before {
+            content: attr(data-label);
+            font-size: 20px;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+    }
+}

@@ -5,7 +5,7 @@
       <p class="title--description">COMPANY</p>
     </section>
     <section class="company-table">
-      <p class="company-table--title">協力医療機関</p>
+      <h2 class="company-table--title">協力医療機関</h2>
       <div>
         <table>
           <tbody>
@@ -38,7 +38,7 @@
       </div>
     </section>
     <section class="company-table">
-      <p class="company-table--title">協力福祉機関</p>
+      <h2 class="company-table--title">協力福祉機関</h2>
       <div>
         <table>
           <tbody>
@@ -95,7 +95,9 @@
       </div>
     </section>
     <section class="company-table">
-      <p class="company-table--title company-table--title--company">協力企業</p>
+      <h2 class="company-table--title company-table--title--company">
+        協力企業
+      </h2>
       <div>
         <table>
           <tbody>

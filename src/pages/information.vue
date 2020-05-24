@@ -5,7 +5,7 @@
       <p class="title--description">INFORMATION</p>
     </section>
     <section class="information-table">
-      <p class="information-table--text">設備案内</p>
+      <h2 class="information-table--text">設備案内</h2>
       <div>
         <table>
           <tbody>
@@ -43,11 +43,11 @@
       </div>
     </section>
     <section class="information-image-list">
-      <p class="information-image-list--text">お部屋案内</p>
+      <h2 class="information-image-list--text">お部屋案内</h2>
       <div class="columns">
         <div class="column is-4 image-box">
           <div class="image-box-inner">
-            <img src="@/assets/images/room01.jpg" />
+            <img src="@/assets/images/room01.jpg" alt="デイルーム" />
             <p class="image-box-inner__text">
               デイルーム
             </p>
@@ -55,7 +55,7 @@
         </div>
         <div class="column is-4 image-box">
           <div class="image-box-inner">
-            <img src="@/assets/images/room02.jpg" />
+            <img src="@/assets/images/room02.jpg" alt="居室" />
             <p class="image-box-inner__text">
               居室
             </p>
@@ -63,7 +63,7 @@
         </div>
         <div class="column is-4 image-box">
           <div class="image-box-inner">
-            <img src="@/assets/images/room03.jpg" />
+            <img src="@/assets/images/room03.jpg" alt="食堂・居間" />
             <p class="image-box-inner__text">
               食堂・居間
             </p>
@@ -73,7 +73,7 @@
       <div class="columns">
         <div class="column is-4 image-box">
           <div class="image-box-inner">
-            <img src="@/assets/images/room04.jpg" />
+            <img src="@/assets/images/room04.jpg" alt="浴室" />
             <p class="image-box-inner__text">
               浴室
             </p>
@@ -81,7 +81,7 @@
         </div>
         <div class="column is-4 image-box">
           <div class="image-box-inner">
-            <img src="@/assets/images/room05.jpg" />
+            <img src="@/assets/images/room05.jpg" alt="くつろぎ和空間" />
             <p class="image-box-inner__text">
               くつろぎ和空間
             </p>

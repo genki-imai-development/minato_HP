@@ -5,7 +5,7 @@
       <p class="title--description">AVAILABILITY</p>
     </section>
     <section class="availability-day">
-      <p class="availability-day--title">デイサービス みなと</p>
+      <h2 class="availability-day--title">デイサービス みなと</h2>
       <p class="availability-day--text">
         現在1名様の空きがございます。施設利用をご希望の方はお問い合わせください。
       </p>
@@ -14,7 +14,7 @@
       </p>
     </section>
     <section class="availability-house">
-      <p class="availability-house--title">ほほえみの家 みなと</p>
+      <h2 class="availability-house--title">ほほえみの家 みなと</h2>
       <p class="availability-house--text">
         申し訳ありませんが、現在1名様の空きがございません。
       </p>

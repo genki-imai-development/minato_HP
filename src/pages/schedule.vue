@@ -5,10 +5,18 @@
       <p class="title--description">SCHEDULE</p>
     </section>
     <section class="schedule-box">
-      <p class="oneday--text">デイサービスの1日</p>
+      <h2 class="oneday--text">デイサービスの1日</h2>
       <div class="schedule-table">
-        <img class="image01 disp-large" src="@/assets/images/schdule01.jpg" />
-        <img class="image02 disp-large" src="@/assets/images/schdule02.jpg" />
+        <img
+          class="image01 disp-large"
+          src="@/assets/images/schdule01.jpg"
+          alt="デイサービスの1日"
+        />
+        <img
+          class="image02 disp-large"
+          src="@/assets/images/schdule02.jpg"
+          alt="デイサービスの1日"
+        />
         <table>
           <tbody>
             <tr>

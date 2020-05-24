@@ -7,7 +7,10 @@
     <section class="helper-description">
       <div class="columns">
         <div class="column is-6">
-          <img src="@/assets/images/helper02.jpg" />
+          <img
+            src="@/assets/images/helper02.jpg"
+            alt="みなとのヘルパーさんの写真"
+          />
         </div>
         <div class="column is-6">
           <div class="text-box">
@@ -26,7 +29,10 @@
     <section class="helper-description">
       <div class="columns">
         <div class="column is-6">
-          <img src="@/assets/images/helper01.jpg" />
+          <img
+            src="@/assets/images/helper01.jpg"
+            alt="みなとのヘルパーさんの写真"
+          />
         </div>
         <div class="text-box">
           <p class="text-box__text">

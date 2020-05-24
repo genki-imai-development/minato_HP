@@ -11,7 +11,10 @@
     <section class="day-service">
       <div class="columns">
         <div class="column is-6">
-          <img src="@/assets/images/day_house.png" />
+          <img
+            src="@/assets/images/day_house.png"
+            alt="デイサービスセンター みなと"
+          />
         </div>
         <div class="column is-6">
           <div class="text-box">

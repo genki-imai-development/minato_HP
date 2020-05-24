@@ -9,13 +9,13 @@
         :autoplay-timeout="4000"
       >
         <slide>
-          <img src="@/assets/images/slide1.jpg" />
+          <img src="@/assets/images/slide1.jpg" alt="施設内観の写真" />
         </slide>
         <slide>
-          <img src="@/assets/images/slide2.jpg" />
+          <img src="@/assets/images/slide2.jpg" alt="施設外観の写真" />
         </slide>
         <slide>
-          <img src="@/assets/images/slide3.jpg" />
+          <img src="@/assets/images/slide3.jpg" alt="お仕事中の写真" />
         </slide>
       </carousel>
     </section>
@@ -27,7 +27,10 @@
           <div class="column is-4 special-box">
             <a href="/helper">
               <div class="special-box-inner">
-                <img src="@/assets/images/helper01.jpg" />
+                <img
+                  src="@/assets/images/helper01.jpg"
+                  alt="みなとのヘルパーさんをご紹介！"
+                />
                 <p class="special-box-inner__text">
                   みなとのヘルパーさんをご紹介！
                 </p>
@@ -37,7 +40,10 @@
           <div class="column is-4 special-box">
             <div class="special-box-inner">
               <a href="/schedule">
-                <img src="@/assets/images/minato_photo1.png" />
+                <img
+                  src="@/assets/images/minato_photo1.png"
+                  alt="デイサービスの1日をご紹介！"
+                />
                 <p class="special-box-inner__text">
                   デイサービスの1日をご紹介！
                 </p>
@@ -47,7 +53,10 @@
           <div class="column is-4 special-box">
             <div class="special-box-inner">
               <a href="/information">
-                <img src="@/assets/images/floor1004.jpg" />
+                <img
+                  src="@/assets/images/floor1004.jpg"
+                  alt="施設内を写真でご紹介いたします"
+                />
                 <p class="special-box-inner__text">
                   施設内を写真でご紹介いたします
                 </p>
@@ -78,7 +87,10 @@
           <div class="column is-6 feature-box">
             <a href="/helper">
               <div class="feature-box-inner">
-                <img src="@/assets/images/day_house2.jpg" />
+                <img
+                  src="@/assets/images/day_house2.jpg"
+                  alt="デイサービスセンター みなと"
+                />
               </div>
             </a>
           </div>
@@ -90,7 +102,10 @@
                 みなとに通う<br />
                 -デイサービスセンター みなと-
               </h3>
-              <img src="@/assets/images/day_house2.jpg" />
+              <img
+                src="@/assets/images/day_house2.jpg"
+                alt="デイサービスセンター みなと"
+              />
               <p class="feature-box-inner__text">
                 デイサービスは、 ご自宅から施設に通っていただく、
                 日帰りサービスです。ご家族の負担を軽減し、ご利用者様が楽しく充実した時間をお過ごしいただけるようサポートいたします。
@@ -105,7 +120,10 @@
           <div class="column is-6 feature-box">
             <div class="feature-box-inner">
               <a href="/information">
-                <img src="@/assets/images/floor1004.jpg" />
+                <img
+                  src="@/assets/images/floor1004.jpg"
+                  alt="ほほえみの家 みなと"
+                />
               </a>
             </div>
           </div>
@@ -130,7 +148,10 @@
                 みなと-みなとで暮らす<br />
                 -ほほえみの家 みなと-
               </h3>
-              <img src="@/assets/images/floor1004.jpg" />
+              <img
+                src="@/assets/images/floor1004.jpg"
+                alt="ほほえみの家 みなと"
+              />
               <p class="feature-box-inner__text">
                 ほほえみの家「みなと」では、ひとり暮らしや、ご自宅での介護に不安を抱える皆様を全面的にサポート致します。ケアスタッフが２４時間体制で常駐していますので、安心してご入居いただけます。どうぞお気軽にご相談ください。
               </p>

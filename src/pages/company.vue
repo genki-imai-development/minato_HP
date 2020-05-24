@@ -1,8 +1,8 @@
 <template>
   <div class="container company">
     <section class="title">
-      <p class="title--title">お問い合わせ</p>
-      <p class="title--description">CONTACT</p>
+      <p class="title--title">協力機関・企業</p>
+      <p class="title--description">COMPANY</p>
     </section>
     <section class="company-table">
       <p class="company-table--title">協力医療機関</p>
@@ -193,3 +193,25 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      title: '安中市磯部の介護施設 | ほほえみの家 みなと | 協力機関・企業'
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            '安中市磯部の介護施設 ほほえみの家 みなとのホームページです。協力機関・企業を掲載しています。'
+        }
+      ]
+    }
+  }
+}
+</script>

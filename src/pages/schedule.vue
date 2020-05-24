@@ -73,3 +73,25 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      title: '安中市磯部の介護施設 | ほほえみの家 みなと | デイサービスの1日'
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            '安中市磯部の介護施設 ほほえみの家 みなとのホームページです。デイサービスの1日をご紹介しています。'
+        }
+      ]
+    }
+  }
+}
+</script>

@@ -1,8 +1,8 @@
 <template>
   <div class="container availability">
     <section class="title">
-      <p class="title--title">料金表</p>
-      <p class="title--description">FEE TABLE</p>
+      <p class="title--title">空き状況</p>
+      <p class="title--description">AVAILABILITY</p>
     </section>
     <section class="availability-day">
       <p class="availability-day--title">デイサービス みなと</p>
@@ -22,3 +22,25 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      title: '安中市磯部の介護施設 | ほほえみの家 みなと | 空き状況'
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            '安中市磯部の介護施設 ほほえみの家 みなとのホームページです。空き状況を掲載しています。'
+        }
+      ]
+    }
+  }
+}
+</script>

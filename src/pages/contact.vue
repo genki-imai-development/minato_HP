@@ -46,3 +46,25 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      title: '安中市磯部の介護施設 | ほほえみの家 みなと | お問い合わせ'
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            '安中市磯部の介護施設 ほほえみの家 みなとのホームページです。お問い合わせ情報を掲載しています。'
+        }
+      ]
+    }
+  }
+}
+</script>

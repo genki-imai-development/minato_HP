@@ -1,13 +1,16 @@
 <template>
   <div class="container helper">
     <section class="title">
-      <p class="title--title">ヘルパーご紹介</p>
+      <h1 class="title--title">ヘルパーご紹介</h1>
       <p class="title--description">HELPER</p>
     </section>
     <section class="helper-description">
       <div class="columns">
         <div class="column is-6">
-          <img src="@/assets/images/helper02.jpg" />
+          <img
+            src="@/assets/images/helper02.jpg"
+            alt="みなとのヘルパーさんの写真"
+          />
         </div>
         <div class="column is-6">
           <div class="text-box">
@@ -26,7 +29,10 @@
     <section class="helper-description">
       <div class="columns">
         <div class="column is-6">
-          <img src="@/assets/images/helper01.jpg" />
+          <img
+            src="@/assets/images/helper01.jpg"
+            alt="みなとのヘルパーさんの写真"
+          />
         </div>
         <div class="text-box">
           <p class="text-box__text">
@@ -42,3 +48,25 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      title: '安中市磯部の介護施設 | ほほえみの家 みなと | ヘルパーご紹介'
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            '安中市磯部の介護施設 ほほえみの家 みなとのホームページです。ヘルパーをご紹介しています。'
+        }
+      ]
+    }
+  }
+}
+</script>

@@ -1,14 +1,22 @@
 <template>
   <div class="container schdule">
     <section class="title">
-      <p class="title--title">スケジュール</p>
+      <h1 class="title--title">スケジュール</h1>
       <p class="title--description">SCHEDULE</p>
     </section>
     <section class="schedule-box">
-      <p class="oneday--text">デイサービスの1日</p>
+      <h2 class="oneday--text">デイサービスの1日</h2>
       <div class="schedule-table">
-        <img class="image01 disp-large" src="@/assets/images/schdule01.jpg" />
-        <img class="image02 disp-large" src="@/assets/images/schdule02.jpg" />
+        <img
+          class="image01 disp-large"
+          src="@/assets/images/schdule01.jpg"
+          alt="デイサービスの1日"
+        />
+        <img
+          class="image02 disp-large"
+          src="@/assets/images/schdule02.jpg"
+          alt="デイサービスの1日"
+        />
         <table>
           <tbody>
             <tr>
@@ -73,3 +81,25 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      title: '安中市磯部の介護施設 | ほほえみの家 みなと | デイサービスの1日'
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            '安中市磯部の介護施設 ほほえみの家 みなとのホームページです。デイサービスの1日をご紹介しています。'
+        }
+      ]
+    }
+  }
+}
+</script>

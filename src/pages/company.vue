@@ -1,11 +1,11 @@
 <template>
   <div class="container company">
     <section class="title">
-      <p class="title--title">お問い合わせ</p>
-      <p class="title--description">CONTACT</p>
+      <h1 class="title--title">協力機関・企業</h1>
+      <p class="title--description">COMPANY</p>
     </section>
     <section class="company-table">
-      <p class="company-table--title">協力医療機関</p>
+      <h2 class="company-table--title">協力医療機関</h2>
       <div>
         <table>
           <tbody>
@@ -38,7 +38,7 @@
       </div>
     </section>
     <section class="company-table">
-      <p class="company-table--title">協力福祉機関</p>
+      <h2 class="company-table--title">協力福祉機関</h2>
       <div>
         <table>
           <tbody>
@@ -95,7 +95,9 @@
       </div>
     </section>
     <section class="company-table">
-      <p class="company-table--title company-table--title--company">協力企業</p>
+      <h2 class="company-table--title company-table--title--company">
+        協力企業
+      </h2>
       <div>
         <table>
           <tbody>
@@ -193,3 +195,25 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      title: '安中市磯部の介護施設 | ほほえみの家 みなと | 協力機関・企業'
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            '安中市磯部の介護施設 ほほえみの家 みなとのホームページです。協力機関・企業を掲載しています。'
+        }
+      ]
+    }
+  }
+}
+</script>

@@ -77,7 +77,7 @@
           <div class="column is-6 feature-box">
             <a href="/helper">
               <div class="feature-box-inner">
-                <img src="@/assets/images/helper01.jpg" />
+                <img src="@/assets/images/day_house2.jpg" />
               </div>
             </a>
           </div>
@@ -89,7 +89,7 @@
                 みなとに通う<br />
                 -デイサービスセンター みなと-
               </h3>
-              <img src="@/assets/images/helper01.jpg" />
+              <img src="@/assets/images/day_house2.jpg" />
               <p class="feature-box-inner__text">
                 デイサービスは、 ご自宅から施設に通っていただく、
                 日帰りサービスです。ご家族の負担を軽減し、ご利用者様が楽しく充実した時間をお過ごしいただけるようサポートいたします。

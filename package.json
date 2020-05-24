@@ -30,6 +30,8 @@
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/google-analytics": "^2.3.0",
+    "@nuxtjs/google-tag-manager": "^2.3.2",
     "@nuxtjs/pwa": "^3.0.0-0",
     "node-sass": "^4.14.1",
     "nuxt": "^2.0.0",

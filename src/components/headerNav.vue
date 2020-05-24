@@ -106,7 +106,10 @@ export default {
         isContact: false,
         isCompany: false
       }
-    } else if (this.$route.path === '/information') {
+    } else if (
+      this.$route.path === '/information' ||
+      this.$route.path === '/information/'
+    ) {
       return {
         isHome: false,
         isInformation: true,
@@ -116,7 +119,10 @@ export default {
         isContact: false,
         isCompany: false
       }
-    } else if (this.$route.path === '/access') {
+    } else if (
+      this.$route.path === '/access' ||
+      this.$route.path === '/access/'
+    ) {
       return {
         isHome: false,
         isInformation: false,
@@ -126,7 +132,7 @@ export default {
         isContact: false,
         isCompany: false
       }
-    } else if (this.$route.path === '/fee') {
+    } else if (this.$route.path === '/fee' || this.$route.path === '/fee/') {
       return {
         isHome: false,
         isInformation: false,
@@ -136,7 +142,10 @@ export default {
         isContact: false,
         isCompany: false
       }
-    } else if (this.$route.path === '/availability') {
+    } else if (
+      this.$route.path === '/availability' ||
+      this.$route.path === '/availability/'
+    ) {
       return {
         isHome: false,
         isInformation: false,
@@ -146,7 +155,10 @@ export default {
         isContact: false,
         isCompany: false
       }
-    } else if (this.$route.path === '/contact') {
+    } else if (
+      this.$route.path === '/contact' ||
+      this.$route.path === '/contact/'
+    ) {
       return {
         isHome: false,
         isInformation: false,
@@ -156,7 +168,10 @@ export default {
         isContact: true,
         isCompany: false
       }
-    } else if (this.$route.path === '/company') {
+    } else if (
+      this.$route.path === '/company' ||
+      this.$route.path === '/company/'
+    ) {
       return {
         isHome: false,
         isInformation: false,
@@ -182,17 +197,32 @@ export default {
     mouseOverAction() {
       if (this.$route.path === '/') {
         this.isHome = false
-      } else if (this.$route.path === '/information') {
+      } else if (
+        this.$route.path === '/information' ||
+        this.$route.path === '/information/'
+      ) {
         this.isInformation = false
-      } else if (this.$route.path === '/access') {
+      } else if (
+        this.$route.path === '/access' ||
+        this.$route.path === '/access/'
+      ) {
         this.isAccess = false
-      } else if (this.$route.path === '/fee') {
+      } else if (this.$route.path === '/fee' || this.$route.path === '/fee/') {
         this.isFee = false
-      } else if (this.$route.path === '/availability') {
+      } else if (
+        this.$route.path === '/availability' ||
+        this.$route.path === '/availability/'
+      ) {
         this.isAvailability = false
-      } else if (this.$route.path === '/contact') {
+      } else if (
+        this.$route.path === '/contact' ||
+        this.$route.path === '/contact/'
+      ) {
         this.isContact = false
-      } else if (this.$route.path === '/company') {
+      } else if (
+        this.$route.path === '/company' ||
+        this.$route.path === '/company/'
+      ) {
         this.isCompany = false
       } else {
       }
@@ -200,17 +230,32 @@ export default {
     mouseLemoveAction() {
       if (this.$route.path === '/') {
         this.isHome = true
-      } else if (this.$route.path === '/information') {
+      } else if (
+        this.$route.path === '/information' ||
+        this.$route.path === '/information/'
+      ) {
         this.isInformation = true
-      } else if (this.$route.path === '/access') {
+      } else if (
+        this.$route.path === '/access' ||
+        this.$route.path === '/access/'
+      ) {
         this.isAccess = true
-      } else if (this.$route.path === '/fee') {
+      } else if (this.$route.path === '/fee' || this.$route.path === '/fee/') {
         this.isFee = true
-      } else if (this.$route.path === '/availability') {
+      } else if (
+        this.$route.path === '/availability' ||
+        this.$route.path === '/availability/'
+      ) {
         this.isAvailability = true
-      } else if (this.$route.path === '/contact') {
+      } else if (
+        this.$route.path === '/contact' ||
+        this.$route.path === '/contact/'
+      ) {
         this.isContact = true
-      } else if (this.$route.path === '/company') {
+      } else if (
+        this.$route.path === '/company' ||
+        this.$route.path === '/company/'
+      ) {
         this.isCompany = true
       } else {
       }

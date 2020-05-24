@@ -50,7 +50,9 @@ export default {
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
     'nuxt-webfontloader',
-    'nuxt-fontawesome'
+    'nuxt-fontawesome',
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-NR7PM3N' }],
+    ['@nuxtjs/google-analytics', { id: 'UA-167528206-1' }]
   ],
   /*
    ** Axios module configuration

@@ -15,13 +15,7 @@
           <img src="@/assets/images/slide2.jpg" />
         </slide>
         <slide>
-          <img src="@/assets/images/slide1.jpg" />
-        </slide>
-        <slide>
-          <img src="@/assets/images/slide2.jpg" />
-        </slide>
-        <slide>
-          <img src="@/assets/images/slide2.jpg" />
+          <img src="@/assets/images/slide3.jpg" />
         </slide>
       </carousel>
     </section>

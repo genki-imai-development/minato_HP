@@ -1,7 +1,7 @@
 <template>
   <div class="container contact">
     <section class="title">
-      <p class="title--title">お問い合わせ</p>
+      <h1 class="title--title">お問い合わせ</h1>
       <p class="title--description">CONTACT</p>
     </section>
     <section class="contact-table">

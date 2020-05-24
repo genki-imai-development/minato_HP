@@ -1,7 +1,7 @@
 <template>
   <div class="container helper">
     <section class="title">
-      <p class="title--title">ヘルパーご紹介</p>
+      <h1 class="title--title">ヘルパーご紹介</h1>
       <p class="title--description">HELPER</p>
     </section>
     <section class="helper-description">

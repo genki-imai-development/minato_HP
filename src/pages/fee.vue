@@ -1,7 +1,7 @@
 <template>
   <div class="container fee">
     <section class="title">
-      <p class="title--title">料金表</p>
+      <h1 class="title--title">料金表</h1>
       <p class="title--description">FEE TABLE</p>
     </section>
     <section class="fee-table">

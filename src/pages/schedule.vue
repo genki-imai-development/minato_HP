@@ -1,7 +1,7 @@
 <template>
   <div class="container schdule">
     <section class="title">
-      <p class="title--title">スケジュール</p>
+      <h1 class="title--title">スケジュール</h1>
       <p class="title--description">SCHEDULE</p>
     </section>
     <section class="schedule-box">

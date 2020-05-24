@@ -1,11 +1,11 @@
 <template>
   <div class="container day">
     <section class="title">
-      <p class="title--title disp-large">デイサービスセンター みなと</p>
-      <p class="title--title disp-small">
+      <h1 class="title--title disp-large">デイサービスセンター みなと</h1>
+      <h1 class="title--title disp-small">
         デイサービスセンター<br />
         みなと
-      </p>
+      </h1>
       <p class="title--description">DAY SERVICE</p>
     </section>
     <section class="day-service">

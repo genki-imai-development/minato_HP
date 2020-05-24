@@ -19,6 +19,7 @@
         </slide>
       </carousel>
     </section>
+    <h1 class="disp-none">安中市磯部の介護施設 ほほえみの家 みなと</h1>
     <section class="special">
       <div class="special-inner">
         <h2>みなとをご紹介</h2>

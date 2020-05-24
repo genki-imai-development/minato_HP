@@ -1,7 +1,7 @@
 <template>
   <div class="container access">
     <section class="title">
-      <p class="title--title">アクセス</p>
+      <h1 class="title--title">アクセス</h1>
       <p class="title--description">ACCESS</p>
     </section>
     <section class="access-map">

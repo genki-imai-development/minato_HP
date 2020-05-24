@@ -1,7 +1,7 @@
 <template>
   <div class="container availability">
     <section class="title">
-      <p class="title--title">空き状況</p>
+      <h1 class="title--title">空き状況</h1>
       <p class="title--description">AVAILABILITY</p>
     </section>
     <section class="availability-day">

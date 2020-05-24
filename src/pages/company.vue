@@ -1,7 +1,7 @@
 <template>
   <div class="container company">
     <section class="title">
-      <p class="title--title">協力機関・企業</p>
+      <h1 class="title--title">協力機関・企業</h1>
       <p class="title--description">COMPANY</p>
     </section>
     <section class="company-table">

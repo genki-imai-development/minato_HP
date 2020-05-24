@@ -1,7 +1,7 @@
 <template>
   <div class="container house">
     <section class="title">
-      <p class="title--title disp-large">ほほえみの家 みなと</p>
+      <h1 class="title--title disp-large">ほほえみの家 みなと</h1>
       <p class="title--title disp-small">
         ほほえみの家<br />
         みなと

@@ -1,7 +1,7 @@
 <template>
   <div class="container information">
     <section class="title">
-      <p class="title--title">施設案内</p>
+      <h1 class="title--title">施設案内</h1>
       <p class="title--description">INFORMATION</p>
     </section>
     <section class="information-table">

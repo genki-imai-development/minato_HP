@@ -14,6 +14,33 @@ export default {
         name: 'description',
         content:
           '安中市磯部の介護施設 | ほほえみの家 みなとのホームページです。'
+      },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: '安中市磯部の介護施設 | ほほえみの家 みなと'
+      },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://minato-kaigo.netlify.app/'
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: '安中市磯部の介護施設 | ほほえみの家 みなと'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          '安中市磯部の介護施設 | ほほえみの家 みなとのホームページです。'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://minato-kaigo.netlify.app/_nuxt/img/b77dc47.jpg'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]

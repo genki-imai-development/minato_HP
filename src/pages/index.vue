@@ -168,7 +168,7 @@
         <h2>お知らせ</h2>
         <ul>
           <li>
-            <time class="time" datetime="2020-06-03">2020.09.03</time>
+            <time class="time" datetime="2020-05-25">2020.05.25</time>
             <p>『みなとのホームページ』リニューアルしました</p>
           </li>
           <li>
@@ -182,7 +182,7 @@
             <p>スタッフ募集中！！詳しくはお電話でご質問ください。</p>
           </li>
           <li class="disp-none" :class="{ dblock: isMore }">
-            <time class="time" datetime="2018-06-03">2020.06.03</time>
+            <time class="time" datetime="2019-01-09">2019.01.09</time>
             <p>
               『みなと』の<a href="http://blog.goo.ne.jp/0273863710">
                 ブログ投稿

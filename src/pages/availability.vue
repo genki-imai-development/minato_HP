@@ -10,7 +10,7 @@
         現在1名様の空きがございます。施設利用をご希望の方はお問い合わせください。
       </p>
       <p class="availability-day--note">
-        ※2020年6月1日更新
+        ※2020年5月25日更新
       </p>
     </section>
     <section class="availability-house">
@@ -18,7 +18,7 @@
       <p class="availability-house--text">
         申し訳ありませんが、現在1名様の空きがございません。
       </p>
-      <p class="availability-house--note">※2020年6月1日更新</p>
+      <p class="availability-house--note">※2020年5月25日更新</p>
     </section>
   </div>
 </template>

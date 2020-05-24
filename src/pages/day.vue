@@ -1,17 +1,20 @@
 <template>
   <div class="container day">
     <section class="title">
-      <p class="title--title disp-large">デイサービスセンター みなと</p>
-      <p class="title--title disp-small">
+      <h1 class="title--title disp-large">デイサービスセンター みなと</h1>
+      <h1 class="title--title disp-small">
         デイサービスセンター<br />
         みなと
-      </p>
+      </h1>
       <p class="title--description">DAY SERVICE</p>
     </section>
     <section class="day-service">
       <div class="columns">
         <div class="column is-6">
-          <img src="@/assets/images/day_house.png" />
+          <img
+            src="@/assets/images/day_house.png"
+            alt="デイサービスセンター みなと"
+          />
         </div>
         <div class="column is-6">
           <div class="text-box">
@@ -49,3 +52,26 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      title:
+        '安中市磯部の介護施設 | ほほえみの家 みなと | デイサービスセンター みなと'
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            '安中市磯部の介護施設 ほほえみの家 みなとのホームページです。デイサービスセンター みなとに関する情報を掲載しています。'
+        }
+      ]
+    }
+  }
+}
+</script>

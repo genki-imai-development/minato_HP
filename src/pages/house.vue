@@ -1,7 +1,7 @@
 <template>
   <div class="container house">
     <section class="title">
-      <p class="title--title disp-large">ほほえみの家 みなと</p>
+      <h1 class="title--title disp-large">ほほえみの家 みなと</h1>
       <p class="title--title disp-small">
         ほほえみの家<br />
         みなと
@@ -11,7 +11,7 @@
     <section class="hohoemi-house">
       <div class="columns">
         <div class="column is-6">
-          <img src="@/assets/images/day_house.png" />
+          <img src="@/assets/images/day_house.png" alt="ほほえみの家 みなと" />
         </div>
         <div class="column is-6">
           <div class="text-box">
@@ -37,3 +37,25 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      title: '安中市磯部の介護施設 | ほほえみの家 みなと | ほほえみの家 みなと'
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            '安中市磯部の介護施設 ほほえみの家 みなとのホームページです。ほほえみの家 みなとに関する情報を掲載しています。'
+        }
+      ]
+    }
+  }
+}
+</script>

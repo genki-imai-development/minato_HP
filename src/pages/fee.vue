@@ -1,11 +1,11 @@
 <template>
   <div class="container fee">
     <section class="title">
-      <p class="title--title">料金表</p>
+      <h1 class="title--title">料金表</h1>
       <p class="title--description">FEE TABLE</p>
     </section>
     <section class="fee-table">
-      <p class="fee-table--text">料金表（1割の方の場合）</p>
+      <h2 class="fee-table--text">料金表（1割の方の場合）</h2>
       <div>
         <table>
           <tbody>
@@ -83,7 +83,7 @@
       </div>
     </section>
     <section class="fee-addition-list">
-      <p class="fee-addition-list--title">加算</p>
+      <h2 class="fee-addition-list--title">加算</h2>
       <ul>
         <li class="fee-addition-list--text">
           ・入浴介助加算： 50円（実施した場合）
@@ -101,3 +101,25 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      title: '安中市磯部の介護施設 | ほほえみの家 みなと | 料金表'
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            '安中市磯部の介護施設 ほほえみの家 みなとのホームページです。料金表を掲載しています。'
+        }
+      ]
+    }
+  }
+}
+</script>

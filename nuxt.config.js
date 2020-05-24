@@ -1,4 +1,5 @@
 export default {
+  srcDir: 'src',
   mode: 'universal',
   /*
    ** Headers of the page
@@ -27,7 +28,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [{ src: '~/plugins/vue-carousel', ssr: false }],
   /*
    ** Nuxt.js dev-modules
    */
@@ -47,7 +48,9 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    'nuxt-webfontloader',
+    'nuxt-fontawesome'
   ],
   /*
    ** Axios module configuration
@@ -62,5 +65,22 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  // eslint-disable-next-line no-dupe-keys
+  css: ['@/assets/css/common.css'],
+  // webフォントを利用
+  webfontloader: {
+    google: {
+      families: ['Kosugi+Maru']
+    }
+  },
+  // fontawesomeを利用
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      }
+    ]
   }
 }

@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* 全体
+--------------------------- */
+.fee {
+    max-width: none;
+    padding: 0 18px;
+}
+/* 料金テーブルセクション
+--------------------------- */
+.fee-table {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 46px 0 70px;
+    .fee-table--text {
+        font-size: 28px;
+        margin: 0 0 32px 0;
+    }
+    .fee-table--text::after {
+        content: '';
+        display: block;
+        width: 308px;
+        height: 1px;
+        margin: 4px 0 0 0;
+        border: solid 1px #242424;
+    }
+    .fee-table--heading {
+        display: table-row;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th,
+    td {
+        padding: 12px 18px;
+        text-align: center;
+        border: 1px solid #aaa;
+    }
+    th {
+        font-weight: normal;
+        font-size: 20px;
+        background: #f2f2f2;
+        color: #242424;
+    }
+    td {
+        font-size: 18px;
+    }
+    .table__note--text {
+        margin: 45px 0 0 0;
+    }
+}
+/* 加算セクション
+--------------------------- */
+.fee-addition-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 70px;
+    .fee-addition-list--title {
+        font-size: 28px;
+        margin: 0 0 32px 0;
+    }
+    .fee-addition-list--title::after {
+        content: '';
+        display: block;
+        width: 53px;
+        height: 1px;
+        margin: 4px 0 0 0;
+        border: solid 1px #242424;
+    }
+    .fee-addition-list--text {
+        margin: 10px 0 0 0;
+        font-size: 18px;
+    }
+    .fee-addition-list--text:first-child {
+        margin: 0;
+    }
+}

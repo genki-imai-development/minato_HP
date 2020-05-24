@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* スライダー
+--------------------------- */
+.VueCarousel-slide {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+    img {
+        width: 1200px;
+    }
+}
+.top {
+    max-width: none;
+}
+/* みなとをご紹介
+--------------------------- */
+.special {
+    background: linear-gradient(180deg,#FFF 0%,#FFF 42%,#F0DEB0 42%,#F0DEB0 100%);
+    padding: 0 18px;
+    h2 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+}
+.special-inner {
+    max-width: 1200px;
+    padding: 70px 0;
+    margin: 0 auto;
+    .columns {
+        margin-left: -1.5rem;
+        margin-right: -1.5rem;
+        margin-top: 0;
+    }
+    .columns:last-child {
+        margin-bottom: 0;
+    }
+}
+.special-box {
+    padding: 0 1.5rem 0 1.5rem;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    a {
+        color: #242424;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.special-box:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.special-box-inner__text {
+    font-size: 18px;
+    margin: 8px 0 0 8px;
+    font-weight: bold;
+}
+/* みなとでの過ごしかた
+--------------------------- */
+.feature {
+    background-color: #F8B5B8;
+    padding: 0 18px;
+    h2 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+    }
+}
+.feature-inner {
+    max-width: 1200px;
+    padding: 70px 0 70px;
+    margin: 0 auto;
+    .columns {
+        margin-left: -2rem;
+        margin-right: -2rem;
+        margin-bottom: 0;
+        margin-top: 40px;
+    }
+}
+.feature-box {
+    padding: 0 2rem 0 2rem;
+    a {
+        color: #242424;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.feature-box-inner__title {
+    margin: 0 0 0 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.feature-box-inner__text {
+    margin: 20px 0 0 30px;
+    font-weight: normal;
+    font-size: 24px;
+}
+.feature-box__btn {
+    margin: 30px auto 0;
+    width: 210px;
+    a {
+        display: block;
+        padding: 16px 0;
+        background: #FFF;
+        color: #000;
+        text-align: center;
+        font-size: 16px;
+    }
+    a:hover {
+        opacity: 0.7;
+        transition: all .3s;
+    }
+}
+/* お知らせ
+--------------------------- */
+.news {
+    padding: 0 18px;
+    background-color: #B1D5CB;
+    h2 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+}
+.news-inner {
+    max-width: 1200px;
+    padding: 70px 0;
+    margin: 0 auto;
+    li {
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #6B807A;
+        padding: 12px 0;
+        font-weight: bold;
+        .time {
+            display: inline-block;
+            margin: 4px 0;
+        }
+        p {
+            margin: 4px 0;
+        }
+    }
+}
+.news-box__btn {
+    margin: 30px auto;
+    width: 210px;
+    a {
+        display: block;
+        padding: 16px 0;
+        background: #FFF;
+        color: #000;
+        text-align: center;
+        font-size: 16px;
+    }
+    a:hover {
+        opacity: 0.7;
+        transition: all .3s;
+    }
+}
+// もっと見るボタン用のクラス
+.dblock {
+    display: block;
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+}
+.dnone {
+    display: none;
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

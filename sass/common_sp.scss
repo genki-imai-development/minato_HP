@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* SP対応
+--------------------------- */
+@media screen and (max-width: 1023px) {
+    // SPのときにだけ表示する用のクラス
+    .disp-small {
+        display: block!important;
+    }
+    // PCのときにだけ表示する用のクラス
+    .disp-large {
+        display: none!important;
+    }
+    /* ヘッダー
+    --------------------------- */
+    header {
+        padding: 0;
+    }
+    // ヘッダー文字
+    .header__text--name {
+        font-size: 16px;
+        margin: 12px 0 0 12px;
+    }
+    // SPのときにだけ表示
+    .navbar-brand {
+        position: relative;
+        display: block;
+    }
+    .nav {
+        margin: 2px auto;
+    }
+    .nav--item {
+        display: block;
+        width: auto;
+    }
+    // 以下はナビゲーションメニュー
+    // SP版のロゴ
+    .navbar-item img {
+        max-height: 4rem;
+    }
+    .navbar-item::before {
+        display: none;
+    }
+    .navbar-start::before {
+        display: none;
+    }
+    .navbar-brand .navbar-item {
+        display: inline-block;
+        padding: 4px 4px 0;
+    }
+    .navbar-burger {
+        position: absolute;
+        top: 12px;
+        right: 1px;
+        span {
+            width: 24px;
+            left: calc(50% - 11px);
+        }
+    }
+    /* スライダー
+    --------------------------- */
+    .VueCarousel-dot-container {
+        margin-top: 0;
+    }
+    /* タイトルセクション
+    --------------------------- */
+    .title {
+        margin: 40px 0 24px 0;
+    }
+    .title--title {
+        font-size: 28px;
+    }
+    /* フッター
+    --------------------------- */
+    .footer {
+        padding: 0;
+        font-size: 14px;
+    }
+    .footer-inner {
+        padding: 20px 18px;
+        text-align: center;
+        img {
+            margin: 0;
+        }
+    }
+    .footer__logo {
+        display: block;
+    }
+    .copyright {
+        position: static;
+    }
+    .footer--text {
+        margin: 8px 0 0 0;
+    }
+}

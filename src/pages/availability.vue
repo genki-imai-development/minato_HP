@@ -16,7 +16,7 @@
     <section class="availability-house">
       <h2 class="availability-house--title">ほほえみの家 みなと</h2>
       <p class="availability-house--text">
-        申し訳ありませんが、現在1名様の空きがございません。
+        申し訳ありませんが、現在空きがございません。
       </p>
       <p class="availability-house--note">※2020年6月1日更新</p>
     </section>

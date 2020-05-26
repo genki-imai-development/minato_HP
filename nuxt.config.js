@@ -80,7 +80,8 @@ export default {
     'nuxt-webfontloader',
     'nuxt-fontawesome',
     ['@nuxtjs/google-tag-manager', { id: 'GTM-NR7PM3N' }],
-    ['@nuxtjs/google-analytics', { id: 'UA-167528206-1' }]
+    ['@nuxtjs/google-analytics', { id: 'UA-167528206-1' }],
+    '@nuxtjs/sitemap'
   ],
   /*
    ** Axios module configuration
@@ -111,6 +112,23 @@ export default {
         set: '@fortawesome/free-solid-svg-icons',
         icons: ['fas']
       }
+    ]
+  },
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://minato-kaigo.netlify.app/',
+    exclude: ['/admin'],
+    routes: [
+      '/information/',
+      '/access/',
+      '/fee/',
+      '/availability/',
+      '/contact/',
+      '/company/',
+      '/day/',
+      '/house/',
+      '/helper/',
+      '/schedule/'
     ]
   }
 }

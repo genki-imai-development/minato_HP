@@ -65,7 +65,7 @@
               <th><span>15:00</span></th>
               <td>
                 <p class="schedule-box--title">おやつ</p>
-                <p class="schedule-box--text">みなとでは無料です</p>
+                <p class="schedule-box--text">美味しいおやつです</p>
               </td>
             </tr>
             <tr>

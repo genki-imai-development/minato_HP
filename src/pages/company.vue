@@ -130,7 +130,7 @@
                 浄化槽管理
               </td>
               <td class="company-table--item">
-                株式会社環境保全センター
+                有限会社松井田総合衛生センター
               </td>
             </tr>
             <tr>

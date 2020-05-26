@@ -29,12 +29,13 @@
             </tr>
             <tr>
               <td class="information-table--kind">
-                デイサービスセンター（通い型）
+                デイサービスセンター（通い型）<br />「地域密着型」
               </td>
               <td data-label="構造">
                 鉄骨造・平屋建て、自動火災通報設備<br />（スプリンクラー完備）
               </td>
-              <td data-label="定員">12名</td>
+              <td data-label="定員" class="disp-large">1日<br />10名</td>
+              <td data-label="定員" class="disp-small">1日10名</td>
               <td data-label="室数">-</td>
               <td data-label="延べ床面積">167.87㎡（事務室含む）</td>
             </tr>
